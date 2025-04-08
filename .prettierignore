@@ -1,0 +1,43 @@
+# Ignore artifacts:
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+/.github/
+.gitignore
+.eslintignore
+.prettierignore
+graphql.schema.json
+graphql.ts
+
+/node_modules
+
+/.husky/
+/.next/
+/out/
+
+*.xlsx
+*.lock
+*.json
+*.css
+*.mdx
+*.graphql
+*.yml
+*.ico
+*.md
+.env
