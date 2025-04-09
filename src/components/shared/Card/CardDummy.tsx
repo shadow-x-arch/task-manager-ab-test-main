@@ -62,7 +62,7 @@ export default function Card({ index }: CardProps) {
       </div>
       <div className="flex flex-col px-4 lg:px-0">
         <h2 className="text-lg font-semibold">Footer Design</h2>
-        <p className="text-sm text-gray-500 dark:text-gray-200">Landing page</p>
+        <p className="text-sm text-gray-900 dark:text-gray-200">Landing page</p>
       </div>
       <div className="mt-auto flex items-center justify-between border-t border-gray-100 px-4 pb-4 pt-2 dark:border-gray-700 lg:px-0 lg:pb-0">
         <div className="flex">
@@ -200,7 +200,7 @@ const Status = ({ variant, className }: statusProps) => {
           "bg-blue-100 text-blue-500 dark:bg-blue-800 dark:text-blue-300",
         Completed:
           "bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-300",
-        sideTasks: "bg-red-100 text-red-500 dark:bg-red-800 dark:text-red-300",
+        sideTasks: "bg-red-200 text-red-500 dark:bg-red-800 dark:text-red-300",
       },
     },
     defaultVariants: {

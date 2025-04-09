@@ -85,7 +85,7 @@ export default function Card({ index, id, title, status }: CardProps) {
       </div>
       <div className="flex flex-col px-4 lg:px-0">
         <h2 className="text-lg font-semibold">{title}</h2>
-        <p className="text-sm text-gray-100 dark:text-gray-200">Landing page</p>
+        <p className="text-sm text-gray-900 dark:text-gray-200">Landing page</p>
       </div>
       <div className="mt-auto flex items-center justify-between border-t border-gray-100 px-4 pb-4 pt-2 dark:border-gray-700 lg:px-0 lg:pb-0">
         <div className="flex">
@@ -105,7 +105,7 @@ export default function Card({ index, id, title, status }: CardProps) {
             <SheetHeader>
               <SheetTitle>
                 <div className="flex items-center justify-between">
-                  <h2>Project Overview</h2>
+                  <h2>Talk to Friends 😉</h2>
                   <Button variant="ghost" className="text-sm">
                     See all
                   </Button>
@@ -129,7 +129,7 @@ export default function Card({ index, id, title, status }: CardProps) {
                 <div className="flex flex-wrap items-center gap-1">
                   {[...new Array(6)].map((_, idx) => (
                     <Avatar className="size-8" key={idx}>
-                      <AvatarImage src="https://github.com/shadcn.png" />
+                      <AvatarImage src="https://images.unsplash.com/photo-1742201835989-4e346e36b364?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNzJ8fHxlbnwwfHx8fHw%3D" />
                       <AvatarFallback>CN</AvatarFallback>
                     </Avatar>
                   ))}
@@ -158,7 +158,7 @@ export default function Card({ index, id, title, status }: CardProps) {
                       })}
                     >
                       <Avatar className="size-8">
-                        <AvatarImage src="https://github.com/shadcn.png" />
+                        <AvatarImage src="https://images.unsplash.com/photo-1717533564570-4ea91a5df160?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQwfHxkZXZlbG9wZXJ8ZW58MHx8MHx8fDA%3D" />
                         <AvatarFallback>CN</AvatarFallback>
                       </Avatar>
                       <h4 className="text-base font-semibold text-black dark:text-white">
@@ -175,7 +175,7 @@ export default function Card({ index, id, title, status }: CardProps) {
                       )}
                     >
                       <p className="text-sm leading-8 ">
-                        This looks promising! 🙌
+                        This looks promising for sure! 🙌
                       </p>
                     </div>
                   </div>
